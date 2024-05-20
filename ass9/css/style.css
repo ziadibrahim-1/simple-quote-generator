@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #DD761C;
+    color: #000;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+}
+h1::after{
+    margin-bottom: 5px;
+    content: '';
+    width: 40%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #DD761C;
+    position: absolute;
+    left: 50%;
+    bottom: -17px;
+    transform: translateX(-50%);
+}
+.container{
+    
+    width: 70%;
+    /* height: 400px; */
+    margin-top: 50px;
+    background: #FFF;
+    border-radius: 15px;
+    padding: 30px 20px;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.5), 0 -6px 20px 0 rgba(0, 0, 0, 0.5);
+  
+    
+}
+div.x{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+h2{
+    margin: 4px 0;
+    position: relative;
+    left: 42%;
+    margin-right: 20%;
+}
+h2::before{
+    content: '';
+    width: 29px;
+    height: 2px;
+    background-color: #DD761C;
+    position: absolute;
+    left: 30%;
+    top: 59%;
+    transform: translateY(-50%);
+}
+.footer{
+    border-top: 2px solid #ccc;
+    margin:0 50px;
+}
+.buttons,.button{
+    margin-top: 20px;
+}
+.footer .icon {
+   border: 30px; 
+   color: #DD761C !important;
+   cursor: pointer;
+}
+.footer .icon i{
+    
+    width: 50px;
+    border:15px solid #000;
+}
+.footer .icon:hover {
+    background-color: #DD761C !important;
+    color: #fff !important;
+    cursor: pointer;
+ }
+ 
